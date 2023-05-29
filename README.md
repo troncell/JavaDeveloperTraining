@@ -24,7 +24,7 @@ Before you start coding, please reference [Java Coding Standards Best Practices]
 1. Java console application
     - [ ] :rainbow_flag:10 sorts algorithms
     - [ ] [JUnit Test]([https://xunit.net/](https://junit.org/junit5/)) for java unit test
-    - [ ] [Benchmark.Net](https://benchmarkdotnet.org/articles/overview.html)
+    - [ ] [Benchmark in Java]([https://benchmarkdotnet.org/articles/overview.html](https://www.baeldung.com/java-microbenchmark-harness))
 
 2. web api template application
     - [ ] [Swagger with Web Api](https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api)
@@ -32,7 +32,7 @@ Before you start coding, please reference [Java Coding Standards Best Practices]
     - [ ] understanding all the structure of web api
     - [ ] Add yourslef api controller with different methods [get,post,delete...]
     
-3. java web api + angular template application
+3. java web api + angular(react/vue) template application
     - [ ] asp.net mvc structure
     - [ ] [mybatis](https://mybatis.org/mybatis-3/)
     - [ ] [SQL Tutorial](https://www.dofactory.com/sql)
