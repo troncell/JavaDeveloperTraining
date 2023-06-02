@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qc.jwtdemo.dao.ProductDao">
+
+    <!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.qc.jwtdemo.entity.Product" id="productMap">
+        <result property="id" column="id"/>
+        <result property="productName" column="product_name"/>
+        <result property="productCategory" column="product_category"/>
+        <result property="productNo" column="product_no"/>
+        <result property="productWare" column="product_ware"/>
+        <result property="brand" column="brand"/>
+
+    </resultMap>
+    <update id="buy">
+        update `product`
+        set product_ware = product_ware - 1
+        where id = #{id}
+    </update>
+
+
+</mapper>
